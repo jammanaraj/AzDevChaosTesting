@@ -16,8 +16,8 @@ stages:
     jobs:
       - job:
         steps:
-          - task: UseDotNet@2
-            displayName: 'Use .NET Core sdk '
+          # - task: UseDotNet@2
+          #   displayName: 'Use .NET Core sdk '
           - task: DotNetCoreCLI@2
             displayName: Restore
             inputs:
